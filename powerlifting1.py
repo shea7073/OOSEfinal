@@ -27,7 +27,7 @@ plate8 = Label()
 plate9 = Label()
 plate10 = Label()
 plate11 = Label()
-collars = Label(text="Don't forget your collars (2.5 KG)")
+collars = Label(text="Don't forget your collars (2.5 KG EACH)")
 
 def kilo2pound():
     a = e1.get()
@@ -61,8 +61,6 @@ def algorithm():
 
 def platesCalc():
 
-    weight = e5.get()
-    weight = float(weight)
     reds = 0
     blues = 0
     yellows = 0
@@ -70,35 +68,67 @@ def platesCalc():
     whites = 0
     blacks = 0
     silvers = 0
-    collar = 2.5
+    collar = 2.5*2
+    array = [0,0,0,0,0,0,0,0,0,0,0]
+    numPlates = 0
     bar = 20
+    weight = e5.get()
+    weight = float(weight)
     weight = weight-collar-bar
+    weight = weight/2
 
     while weight >= 25:
         weight = weight-25
         reds += 1
+        numPlates += 1
+        array[numPlates-1] = 25
     while weight >= 20 :
         weight = weight-20
         blues += 1
-    while weight >= 15 :
+        numPlates += 1
+        array[numPlates-1] = 20
+    while weight >= 15:
         weight = weight-15
         yellows += 1
+        numPlates += 1
+        array[numPlates - 1] = 15
     while weight >= 10:
         weight = weight-10
         greens += 1
+        numPlates += 1
+        array[numPlates - 1] = 10
     while weight >= 5:
         weight = weight - 5
         whites += 1
+        numPlates += 1
+        array[numPlates - 1] = 5
     while weight >= 2.5 :
         weight = weight - 2.5
         blacks += 1
+        numPlates += 1
+        array[numPlates - 1] = 2.5
     while weight >= 1.25:
         weight = weight - 1.25
         silvers += 1
+        numPlates += 1
+        array[numPlates - 1] = 1.25
 
     remainder = weight
 
     label7.configure(text=str(remainder))
+
+    for i in array :
+        plate1.configure(text=str(array[0]))
+        plate2.configure(text=str(array[1]))
+        plate3.configure(text=str(array[2]))
+        plate4.configure(text=str(array[3]))
+        plate5.configure(text=str(array[4]))
+        plate6.configure(text=str(array[5]))
+        plate7.configure(text=str(array[6]))
+        plate8.configure(text=str(array[7]))
+        plate9.configure(text=str(array[8]))
+        plate10.configure(text=str(array[9]))
+        plate11.configure(text=str(array[10]))
 
 button1 = Button(text="calculate kilos to pounds", command=kilo2pound)
 
