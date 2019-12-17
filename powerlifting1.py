@@ -69,7 +69,7 @@ def platesCalc():
     blacks = 0
     silvers = 0
     collar = 2.5*2
-    array = [0,0,0,0,0,0,0,0,0,0,0]
+    array = [0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00]
     numPlates = 0
     bar = 20
     weight = e5.get()
@@ -130,6 +130,194 @@ def platesCalc():
         plate10.configure(text=str(array[9]))
         plate11.configure(text=str(array[10]))
 
+    if array[0] == 25:
+        plate1.configure(background='red')
+    elif array[0] == 20:
+        plate1.configure(background='blue')
+    elif array[0] == 15:
+        plate1.configure(background='yellow')
+    elif array[0] == 10:
+        plate1.configure(background='green')
+    elif array[0] == 5:
+        plate1.configure(background='white')
+    elif array[0] == 2.5:
+        plate1.configure(background='black')
+    elif array[0] == 1.25:
+        plate1.configure(background='grey')
+    else:
+        print("error")
+
+    if array[1] == 25:
+        plate2.configure(background='red')
+    elif array[1] == 20:
+        plate2.configure(background='blue')
+    elif array[1] == 15:
+        plate2.configure(background='yellow')
+    elif array[1] == 10:
+        plate2.configure(background='green')
+    elif array[1] == 5:
+        plate2.configure(background='white')
+    elif array[1] == 2.5:
+        plate2.configure(background='black')
+    elif array[1] == 1.25:
+        plate2.configure(background='grey')
+    else:
+        print("error")
+
+    if array[2] == 25:
+        plate3.configure(background='red')
+    elif array[2] == 20:
+        plate3.configure(background='blue')
+    elif array[2] == 15:
+        plate3.configure(background='yellow')
+    elif array[2] == 10:
+        plate3.configure(background='green')
+    elif array[2] == 5:
+        plate3.configure(background='white')
+    elif array[2] == 2.5:
+        plate3.configure(background='black')
+    elif array[2] == 1.25:
+        plate3.configure(background='grey')
+    else:
+        print("error")
+
+    if array[3] == 25:
+        plate4.configure(background='red')
+    elif array[3] == 20:
+        plate4.configure(background='blue')
+    elif array[3] == 15:
+        plate4.configure(background='yellow')
+    elif array[3] == 10:
+        plate4.configure(background='green')
+    elif array[3] == 5:
+        plate4.configure(background='white')
+    elif array[3] == 2.5:
+        plate4.configure(background='black')
+    elif array[3] == 1.25:
+        plate4.configure(background='grey')
+    else:
+        print("error")
+
+    if array[4] == 25:
+        plate5.configure(background='red')
+    elif array[4] == 20:
+        plate5.configure(background='blue')
+    elif array[4] == 15:
+        plate5.configure(background='yellow')
+    elif array[4] == 10:
+        plate5.configure(background='green')
+    elif array[4] == 5:
+        plate5.configure(background='white')
+    elif array[4] == 2.5:
+        plate5.configure(background='black')
+    elif array[4] == 1.25:
+        plate5.configure(background='grey')
+    else:
+        print("error")
+
+    if array[5] == 25:
+        plate6.configure(background='red')
+    elif array[5] == 20:
+        plate6.configure(background='blue')
+    elif array[5] == 15:
+        plate6.configure(background='yellow')
+    elif array[5] == 10:
+        plate6.configure(background='green')
+    elif array[5] == 5:
+        plate6.configure(background='white')
+    elif array[5] == 2.5:
+        plate6.configure(background='black')
+    elif array[5] == 1.25:
+        plate6.configure(background='grey')
+    else:
+        print("error")
+
+    if array[6] == 25:
+        plate7.configure(background='red')
+    elif array[6] == 20:
+        plate7.configure(background='blue')
+    elif array[6] == 15:
+        plate7.configure(background='yellow')
+    elif array[6] == 10:
+        plate7.configure(background='green')
+    elif array[6] == 5:
+        plate7.configure(background='white')
+    elif array[6] == 2.5:
+        plate7.configure(background='black')
+    elif array[6] == 1.25:
+        plate7.configure(background='grey')
+    else:
+        print("error")
+
+    if array[7] == 25:
+        plate8.configure(background='red')
+    elif array[7] == 20:
+        plate8.configure(background='blue')
+    elif array[7] == 15:
+        plate8.configure(background='yellow')
+    elif array[7] == 10:
+        plate8.configure(background='green')
+    elif array[7] == 5:
+        plate8.configure(background='white')
+    elif array[7] == 2.5:
+        plate8.configure(background='black')
+    elif array[7] == 1.25:
+        plate8.configure(background='grey')
+    else:
+        print("error")
+
+    if array[8] == 25:
+        plate9.configure(background='red')
+    elif array[8] == 20:
+        plate9.configure(background='blue')
+    elif array[8] == 15:
+        plate9.configure(background='yellow')
+    elif array[8] == 10:
+        plate9.configure(background='green')
+    elif array[8] == 5:
+        plate9.configure(background='white')
+    elif array[8] == 2.5:
+        plate9.configure(background='black')
+    elif array[8] == 1.25:
+        plate9.configure(background='grey')
+    else:
+        print("error")
+
+    if array[9] == 25:
+        plate10.configure(background='red')
+    elif array[9] == 20:
+        plate10.configure(background='blue')
+    elif array[9] == 15:
+        plate10.configure(background='yellow')
+    elif array[9] == 10:
+        plate10.configure(background='green')
+    elif array[9] == 5:
+        plate10.configure(background='white')
+    elif array[9] == 2.5:
+        plate10.configure(background='black')
+    elif array[9] == 1.25:
+        plate10.configure(background='grey')
+    else:
+        print("error")
+
+    if array[10] == 25:
+        plate11.configure(background='red')
+    elif array[10] == 20:
+        plate11.configure(background='blue')
+    elif array[10] == 15:
+        plate11.configure(background='yellow')
+    elif array[10] == 10:
+        plate11.configure(background='green')
+    elif array[10] == 5:
+        plate11.configure(background='white')
+    elif array[10] == 2.5:
+        plate11.configure(background='black')
+    elif array[10] == 1.25:
+        plate11.configure(background='grey')
+    else:
+        print("error")
+
+
 button1 = Button(text="calculate kilos to pounds", command=kilo2pound)
 
 button2 = Button(text="calculate 1 rep max", command=algorithm)
@@ -166,6 +354,7 @@ button3.configure(background='red')
 label2.grid(row=10)
 label2.configure(background='sky blue')
 label6.grid(row=11)
+label6.configure(background='sky blue')
 e5.grid(row=12)
 button4.grid(row=13)
 label7.grid(row=14)
