@@ -141,7 +141,7 @@ def platesCalc():
     elif array[0] == 5:
         plate1.configure(background='white')
     elif array[0] == 2.5:
-        plate1.configure(background='black')
+        plate1.configure(background='black',foreground='white')
     elif array[0] == 1.25:
         plate1.configure(background='grey')
     else:
@@ -158,7 +158,7 @@ def platesCalc():
     elif array[1] == 5:
         plate2.configure(background='white')
     elif array[1] == 2.5:
-        plate2.configure(background='black')
+        plate2.configure(background='black',foreground='white')
     elif array[1] == 1.25:
         plate2.configure(background='grey')
     else:
@@ -175,7 +175,7 @@ def platesCalc():
     elif array[2] == 5:
         plate3.configure(background='white')
     elif array[2] == 2.5:
-        plate3.configure(background='black')
+        plate3.configure(background='black',foreground='white')
     elif array[2] == 1.25:
         plate3.configure(background='grey')
     else:
@@ -192,7 +192,7 @@ def platesCalc():
     elif array[3] == 5:
         plate4.configure(background='white')
     elif array[3] == 2.5:
-        plate4.configure(background='black')
+        plate4.configure(background='black',foreground='white')
     elif array[3] == 1.25:
         plate4.configure(background='grey')
     else:
@@ -209,7 +209,7 @@ def platesCalc():
     elif array[4] == 5:
         plate5.configure(background='white')
     elif array[4] == 2.5:
-        plate5.configure(background='black')
+        plate5.configure(background='black',foreground='white')
     elif array[4] == 1.25:
         plate5.configure(background='grey')
     else:
@@ -226,7 +226,7 @@ def platesCalc():
     elif array[5] == 5:
         plate6.configure(background='white')
     elif array[5] == 2.5:
-        plate6.configure(background='black')
+        plate6.configure(background='black',foreground='white')
     elif array[5] == 1.25:
         plate6.configure(background='grey')
     else:
@@ -243,7 +243,7 @@ def platesCalc():
     elif array[6] == 5:
         plate7.configure(background='white')
     elif array[6] == 2.5:
-        plate7.configure(background='black')
+        plate7.configure(background='black',foreground='white')
     elif array[6] == 1.25:
         plate7.configure(background='grey')
     else:
@@ -260,7 +260,7 @@ def platesCalc():
     elif array[7] == 5:
         plate8.configure(background='white')
     elif array[7] == 2.5:
-        plate8.configure(background='black')
+        plate8.configure(background='black',foreground='white')
     elif array[7] == 1.25:
         plate8.configure(background='grey')
     else:
@@ -277,7 +277,7 @@ def platesCalc():
     elif array[8] == 5:
         plate9.configure(background='white')
     elif array[8] == 2.5:
-        plate9.configure(background='black')
+        plate9.configure(background='black',foreground='white')
     elif array[8] == 1.25:
         plate9.configure(background='grey')
     else:
@@ -294,7 +294,7 @@ def platesCalc():
     elif array[9] == 5:
         plate10.configure(background='white')
     elif array[9] == 2.5:
-        plate10.configure(background='black')
+        plate10.configure(background='black',foreground='white')
     elif array[9] == 1.25:
         plate10.configure(background='grey')
     else:
@@ -311,7 +311,7 @@ def platesCalc():
     elif array[10] == 5:
         plate11.configure(background='white')
     elif array[10] == 2.5:
-        plate11.configure(background='black')
+        plate11.configure(background='black',foreground='white')
     elif array[10] == 1.25:
         plate11.configure(background='grey')
     else:
