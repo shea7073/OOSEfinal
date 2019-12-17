@@ -2,7 +2,7 @@ from tkinter import *
 from typing import Any, Union
 import Plates
 
-
+#Sean Shea, Dan Kotlinski, Harsh Shastri
 
 
 
