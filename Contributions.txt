@@ -1,0 +1,5 @@
+Daniel Kotlinski - Group leader, organzized project Wrote test case specificaiton and software requirements specifications document
+
+Harsh Shastri - Created classes in java, created class and use case diagrams
+
+Sean Shea - Wrote all code for needed classes and GUI
